@@ -25,4 +25,5 @@ alias lsa='ls -a --color=always'
 alias ll='ls -lh --color=always'
 alias lla='ls -lah --color=always'
 
-alias df='df -h | grep -vE "/dev/loop*|tmps*|denue*|udev"'
+alias df='df -h | grep -vE "/dev/loop*|tmps*|"'
+   
